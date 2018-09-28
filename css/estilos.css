@@ -8,9 +8,37 @@ body{
 }
 #cabecera{
   font-family: 'Dancing Script', cursive;
-  font-size: 25px;
   text-align: left;
   color: white;
-  text-shadow: 2px 2px 2px #02010a;
-  padding: 30px;
+
+}
+#cabecera h1{
+  margin-left: 5px;
+    font-size: 30px;
+    text-shadow: 2px 2px 2px #02010a;
+}
+.contenedor{
+  display:flex;
+	flex-direction:row;
+}
+#cabecera .contenedor > div{
+	padding:5px;
+	margin:5px;
+	width:50%;
+}
+.link a{
+  margin: 20px 5px;
+  float: right;
+  font-size:25px;
+  color: white;
+}
+#imagen-central{
+  background: #82c3a6;
+  padding:2%;
+}
+#imagen-central img{
+  display: block;
+  margin: auto;
+  width: 80%;
+
 }
