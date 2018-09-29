@@ -1,33 +1,27 @@
 body{
   background: black;
 }
-#contenido{
-  border-radius: 10px;
-  border: 1px solid white;
-  background: #5b7989;
-}
 #cabecera{
+  background: #5b7989;
   font-family: 'Dancing Script', cursive;
-  text-align: left;
   color: white;
+  border-radius: 10px 10px 0px 0px;
+  text-shadow: 2px 2px 2px #02010a;
 
 }
 #cabecera h1{
-  margin-left: 5px;
-    font-size: 30px;
-    text-shadow: 2px 2px 2px #02010a;
+margin: 30px;
+font-size: 40px;
 }
 .contenedor{
   display:flex;
 	flex-direction:row;
 }
 #cabecera .contenedor > div{
-	padding:5px;
-	margin:5px;
 	width:50%;
 }
 .link a{
-  margin: 20px 5px;
+  margin: 35px 30px;
   float: right;
   font-size:25px;
   color: white;
@@ -40,5 +34,43 @@ body{
   display: block;
   margin: auto;
   width: 80%;
-
+}
+#secundaria{
+  background: #d5c75f;
+  display:flex;
+  flex-direction:row;
+}
+#secundaria > div{
+  padding: 2%;
+  width: 50%;
+}
+#secundaria img{
+  width: 350px;
+  height: 350px;
+  display: block;
+  margin: auto;
+}
+#secundaria p{
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 25px;
+}
+#secundaria a{
+  margin:20px;
+  color: black;
+}
+#pie{
+  background: #C6d5c5;
+  display:flex;
+  flex-direction:row;
+  border-radius: 0px 0px 10px 10px;
+}
+#pie > div{
+  width:25%;
+}
+#pie h1{
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  padding: 2%;
+  margin: 10px;
 }
