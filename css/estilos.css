@@ -1,5 +1,8 @@
 body{
-  background: black;
+  background: #02010a;
+}
+img{
+  box-shadow: 2px 2px 2px #02010a;
 }
 #cabecera{
   background: #5b7989;
@@ -73,4 +76,24 @@ font-size: 40px;
   font-size: 40px;
   padding: 2%;
   margin: 10px;
+}
+#pie p{
+  font-family:'Dancing Script', cursive;
+  font-size: 20px;
+  padding: 2%;
+  margin:10px;
+}
+#pie .sociales a{
+  text-decoration:none;
+  color: black;
+}
+.imagen1 img:hover{
+  transform: rotate(10deg);
+  box-shadow: 2px 2px 2px #82c3a6;
+  border: 2px solid;
+}
+.imagen2 img:hover{
+  transform: translate(20px,-5px);
+  box-shadow: 2px 2px 2px #82c3a6;
+  border: 2px solid;
 }
