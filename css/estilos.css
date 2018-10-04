@@ -43,6 +43,10 @@ font-size: 40px;
   display:flex;
   flex-direction:row;
 }
+#secundaria{
+  display:flex;
+  flex-direction:row;
+}
 #secundaria > div{
   padding: 2%;
   width: 50%;
@@ -54,13 +58,52 @@ font-size: 40px;
   margin: auto;
 }
 #secundaria p{
-  text-align: center;
   font-family: 'Dancing Script', cursive;
+  text-align:center;
+  color:black;
   font-size: 25px;
 }
 #secundaria a{
-  margin:20px;
-  color: black;
+  color:black;
+}
+.imagen1 img:hover{
+  transform: rotate(10deg);
+  box-shadow: 2px 2px 2px #82c3a6;
+}
+.imagen2 img:hover{
+  transform: translate(20px,-5px);
+  box-shadow: 2px 2px 2px #82c3a6;
+}
+#central{
+  background: #d5c75f;
+}
+#uno{
+  display:flex;
+  flex-direction:row;
+}
+#uno > div{
+  padding: 2%;
+  width: 50%;
+}
+#uno img{
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin: auto;
+}
+#dos{
+  display:flex;
+  flex-direction:row;
+}
+#dos > div{
+  padding: 2%;
+  width: 50%;
+}
+#dos img{
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin: auto;
 }
 #pie{
   background: #C6d5c5;
@@ -87,13 +130,13 @@ font-size: 40px;
   text-decoration:none;
   color: black;
 }
-.imagen1 img:hover{
-  transform: rotate(10deg);
-  box-shadow: 2px 2px 2px #82c3a6;
-  border: 2px solid;
+
+.filtro1{
+  -webkit-filter: blur(10px);
 }
-.imagen2 img:hover{
-  transform: translate(20px,-5px);
-  box-shadow: 2px 2px 2px #82c3a6;
-  border: 2px solid;
+.filtro2{
+  -webkit-filter: grayscale(100%);
+}
+.filtro3{
+  -webkit-filter: sepia(90%);
 }
